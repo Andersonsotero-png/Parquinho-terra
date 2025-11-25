@@ -1,0 +1,54 @@
+
+:root {
+  --cor-sol: #E67A2E;
+  --cor-mar: #3EB5B4;
+  --cor-fundo: #ffffff;
+  --cor-texto: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+}
+
+.topbar {
+  background: var(--cor-fundo);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid var(--cor-mar);
+}
+
+.brand-title {
+  color: var(--cor-sol);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.brand-sub {
+  color: var(--cor-mar);
+}
+
+.tabs button.active {
+  background: var(--cor-mar);
+  color: white;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  margin: 12px;
+  border-radius: 12px;
+  border-left: 5px solid var(--cor-mar);
+}
+
+button {
+  background: var(--cor-sol);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+}
